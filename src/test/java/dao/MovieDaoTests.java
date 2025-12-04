@@ -17,7 +17,7 @@ public class MovieDaoTests {
     }
 
     public static void testgetMovieByStatus() {
-        System.out.println("Testing to find Movie by status");
+        System.out.println("Testing to find Movie by the status");
         try{
             MovieDaoImpl movieDao = new MovieDaoImpl();
 

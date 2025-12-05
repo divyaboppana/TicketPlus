@@ -21,10 +21,10 @@ public class MovieDaoTests {
         try{
             MovieDaoImpl movieDao = new MovieDaoImpl();
 
-//            MovieEntity movieEntity=new MovieEntity();
+            MovieEntity movieEntity=new MovieEntity();
 
             List<MovieEntity> available = movieDao.getMovieByStatus(MovieStatus.Available);
-            System.out.println("Movies found: " + available.size());
+            System.out.println("Movies found : " + available.size());
 //            System.out.println(available);
             for (MovieEntity mv : available) {
                 System.out.println(mv);

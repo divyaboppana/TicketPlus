@@ -21,7 +21,7 @@ public class MovieDaoTests {
         try{
             MovieDaoImpl movieDao = new MovieDaoImpl();
 
-            MovieEntity movieEntity=new MovieEntity();
+//            MovieEntity movieEntity=new MovieEntity();
 
             List<MovieEntity> available = movieDao.getMovieByStatus(MovieStatus.Available);
             System.out.println("Movies found: " + available.size());
